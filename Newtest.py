@@ -43,7 +43,7 @@ if __name__ == '__main__':
     driver.find_element_by_xpath(".//*[@id='loginForm']/div/div[4]/select").click()
     time.sleep(2)
     driver.find_element_by_xpath(".//*[@id='loginForm']/div/div[4]/select/option[1]").click()
-    time.sleep(2)
+    time.sleep(3)
     driver.find_element_by_xpath("//button[@class='btn btn-primary btn-block bt-color']").click()
     
     
